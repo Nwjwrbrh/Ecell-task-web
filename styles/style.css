@@ -1,18 +1,37 @@
 html{
-    background-color:#97DDCF;
+    background-color:linear#97DDCF;
 }
 h1{
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 50px;
-    color: #ED819A;
+    color: #97DDCF;
+}
+h2{
+    font-size: 40px;
 }
 body{
+    color: #FFFFFF;
+    background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, #FF7A59);
+}
+.myself{
     font-size: 30px;
     font-family: 'Zen Loop', cursive;
+}
+.random{
+    font-family: 'Inconsolata', monospace;
+    background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, #FF7A59);
+    font-size: 25px;
+    color: #FFFFFF;
 }
 img{
     display: block;
     margin: 0 auto;
     width: 10%;
+}
+a:hover{
+    color:red;
+}
+a{
+    font-weight: 600;
 }
