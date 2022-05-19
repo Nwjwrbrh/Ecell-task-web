@@ -1,6 +1,9 @@
 html{
     background-color:linear#97DDCF;
 }
+*{
+    margin: 0;
+}
 h1{
     text-align: center;
     font-family: 'Playfair Display', serif;
@@ -15,19 +18,20 @@ body{
     background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, #FF7A59);
 }
 .myself{
+    padding: 30px;
     font-size: 30px;
     font-family: 'Zen Loop', cursive;
 }
 .random{
+    padding: 30px;
     font-family: 'Inconsolata', monospace;
-    background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, #FF7A59);
     font-size: 25px;
+    position: relative;
+    background-image: url('../images/Senna.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
     color: #FFFFFF;
-}
-img{
-    display: block;
-    margin: 0 auto;
-    width: 10%;
 }
 a:hover{
     color:red;
@@ -35,4 +39,20 @@ a:hover{
 a{
     font-weight: 600;
     font-style: italic;
+}
+#note{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.contact{
+    display: block;
+    background: black;
+    position: relative;
+    padding: 30px;
+    margin: 0px;
+    bottom: 0px;
+}
+#bold{
+    font-weight:800;
 }
